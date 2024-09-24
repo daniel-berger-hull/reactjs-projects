@@ -1,0 +1,17 @@
+.NavBar {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    column-gap: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: red;
+}
+
+.NavBar > div {
+    margin: 0px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }

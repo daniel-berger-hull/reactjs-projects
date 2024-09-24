@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  background-image: url("wall-brick.png");
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+  
+
+
+#header-section {
+  height: 200px;
+  width: 80%;  
+  margin: auto;
+  color: white;
+
+  font-family: 'Brush Script MT', cursive;
+  font-size: 130px;
+  text-shadow: 3px 3px 3px black;
+}
+
+
+#input-section {
+  width: 50%;  
+  margin: auto;
+  background-color: white;
+}
+
+#input-section-inner {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.input-section-grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.large-input {
+  width: 200px;
+  background-color: #00518a;
+  color: white;
+  font-weight: bold;
+}
+
+.small-input {
+  width: 30px;
+  background-color: #00518a;
+  color: white;
+  font-weight: bold;
+
+}
+
+
+#canvas-section {
+  width: 80%;  
+  margin: auto;
+}
+
+
+
+#button-section {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.button-container {
+  margin: auto;
+  display: flex;
+   flex-direction: row;
+   
+}

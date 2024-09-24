@@ -1,0 +1,48 @@
+
+
+
+
+
+
+.MainPanel-bold-text {
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+}
+  
+
+
+
+.MainPanel > div {
+    padding: 0px;
+    font-size: 16px;
+    height: 25px;
+  }
+
+
+.textfield-input {
+
+    width: 30px;
+    border-color: #f87201;
+    border: 0px solid #ccc;
+}
+
+.action-button {
+    background-color: #f9ab00;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+.textfield-input :focus {
+    border: 0px solid #555;
+    border-color: #f3984efb;
+  }
+
+
+

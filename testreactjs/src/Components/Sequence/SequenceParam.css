@@ -1,0 +1,57 @@
+.sequence-param {
+    
+    display: grid;
+
+
+    grid-template-columns: 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px;
+    
+    justify-content: space-evenly;
+ 
+    row-gap: 5px;
+    column-gap: 10px;
+    background-color: rgba(211, 211, 211, 0.438);
+
+    border-radius: 5px;
+}
+
+
+#sequence-len-lbl {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+  
+  #sequence-len-input {
+  
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+  }
+  
+  
+  #sequence-sum-lbl {
+      grid-column: 3 / 4;
+      grid-row: 2 / 3;
+  }
+  
+  #sequence-sum-input {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+  }
+  
+  #generate-button {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+  }
+  
+  
+  #clear-button {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+  }
+  
+  
+  #sequence-error-lbl {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+  }
+  

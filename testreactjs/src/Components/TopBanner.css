@@ -1,0 +1,14 @@
+
+
+.TopBanner {
+
+    height: 240px;
+    color: white;
+    background-color: black;
+}
+
+img {
+    width: 900px;
+    max-width: 100%;
+}
+

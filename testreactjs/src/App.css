@@ -1,0 +1,38 @@
+
+.App {
+
+  width: 1200px;
+  text-align: center;
+
+
+  width: 900px;
+  margin: auto;
+  background-color: white;
+  
+}
+
+.main-section {
+  margin-top: 30px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+
+#sequence-param-panel {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#statistics-panel {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#algorithm-panel {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+

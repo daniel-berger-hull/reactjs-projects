@@ -1,0 +1,28 @@
+
+
+#buttons-section {
+    display: flex;
+    justify-content: right;
+    column-gap: 10px;
+    padding-right: 10px;
+}
+
+
+.sequence-panel-error-text {
+    color: #f80e0e;
+    font-weight: bold;
+    text-shadow: 1px 1px #803232;
+  }
+
+  
+.mask-error-text {
+    visibility: hidden;
+  }
+  
+  .show-error-text {
+    visibility: visible;
+  }
+  
+
+
+  
